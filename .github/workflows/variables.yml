@@ -16,5 +16,5 @@ jobs:
 
     - name: echo access ID and secret
       run: |
-        echo "Access ID -${{ vars.ACCESS_ID }}"
-        echo "Access secret - ${{ secrets.ACCESS_SECRET}}"
+        echo "Access ID ${{ vars.ACCESS_ID }}"
+        echo "Access secret ${{ secrets.ACCESS_SECRET}}"
